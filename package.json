@@ -1,5 +1,5 @@
 {
-  "name": "MyLittleHome",
+  "name": "Shaders",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,20 +8,20 @@
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "lint": "eslint src --ext .js",
     "lint:fix": "npm run lint -- --fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d ./dist"
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EugeneZakhno/MyLittleHome.git"
+    "url": "git+https://github.com/EugeneZakhno/Shaders.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EugeneZakhno/MyLittleHome/issues"
+    "url": "https://github.com/EugeneZakhno/Shaders/issues"
   },
-  "homepage": "https://eugenezakhno.github.io/MyLittleHome",
+  "homepage": "https://eugenezakhno.github.io/Shaders",
   "devDependencies": {
     "@babel/core": "^7.22.10",
     "@babel/preset-env": "^7.22.10",
